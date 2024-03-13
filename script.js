@@ -9,8 +9,7 @@ const result = document.querySelector(".result")
         const max = Math.floor(document.querySelector(".max").value)
 
         const sorteado = Math.floor(Math.random() * (max - min + 1)) + min
-        result.innerHTML = sorteado
-        
+        result.innerHTML = sorteado        
     }
 
     button.addEventListener("click", convert)
